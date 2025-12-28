@@ -21,7 +21,6 @@ const calculate = () => {
   <div>Total Amount: <span>${amount.toFixed(2)}</span></div>`;
 };
 
-import './style.css';
 
 if (typeof module !== 'undefined') {
   module.exports = { calculateSimpleInterest, calculateTotalPayableAmount, calculate };
