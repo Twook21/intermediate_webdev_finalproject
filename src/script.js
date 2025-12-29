@@ -1,4 +1,5 @@
-// Fungsi untuk menghitung simple interest
+import './style.css';
+
 const calculateSimpleInterest = (principal, rate, time) => {
   return (principal * rate * time) / 100;
 };
@@ -7,7 +8,7 @@ const calculateTotalPayableAmount = (principal, interestAmount) => {
   return principal + interestAmount;
 };
 
-const calculate = () => {
+window.calculate = () => {
   let p = Number(document.getElementById("principal").value);
   let r = Number(document.getElementById("rate").value);
   let t = Number(document.getElementById("time").value);
@@ -20,7 +21,6 @@ const calculate = () => {
   <div>Total Interest: <span>${simpleInterest.toFixed(2)}</span></div>
   <div>Total Amount: <span>${amount.toFixed(2)}</span></div>`;
 };
-
 
 if (typeof module !== 'undefined') {
   module.exports = { calculateSimpleInterest, calculateTotalPayableAmount, calculate };
