@@ -1,0 +1,24 @@
+npx jasmine
+Randomized with seed 90578
+Started
+
+
+
+Suite error: Interest Rate Calculator Tests
+  Message:
+    TypeError: Unknown file extension ".css" for E:\Become Full Stack\Course\IBM\intermediate_webdev_finalproject\src\style.css
+  Stack:
+    error properties: Object({ code: 'ERR_UNKNOWN_FILE_EXTENSION' })
+        at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:185:9)
+        at defaultGetFormat (node:internal/modules/esm/get_format:211:36)
+        at defaultLoadSync (node:internal/modules/esm/load:151:14)
+        at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:856:12)
+        at #loadSync (node:internal/modules/esm/loader:878:49)
+        at ModuleLoader.getModuleJobForRequire (node:internal/modules/esm/loader:504:38)
+        at #link (node:internal/modules/esm/module_job:447:34)
+        at new ModuleJobSync (node:internal/modules/esm/module_job:420:17)        
+        at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:446:11)
+        at loadESMFromCJS (node:internal/modules/cjs/loader:1576:24)
+No specs found
+Finished in 0.002 seconds
+Randomized with seed 90578 (jasmine --random=true --seed=90578)
